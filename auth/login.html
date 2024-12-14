@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Login to The Daily News and stay informed with the latest updates!" />
+		<title>The Daily News | Login</title>
+		<link rel="stylesheet" href="/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	</head>
+	<body>
+		<!-- Include reusable header -->
+		<header class="auth__header">
+			<h1 class="auth__header--title"> <span>The Daily</span><br />News </h1>
+			<p class="auth__header--subtitle">
+				Join the <strong>175,000+</strong> people <br />
+				getting the latest news <strong>every day</strong>
+			</p>
+		</header>
+
+		<main class="auth__main">
+			<h2 class="auth__main--title"><span>Welcome</span> Back!</h2>
+			<form
+				class="auth__form"
+				action="/login"
+				method="POST"
+				aria-label="Login form">
+				<!-- Username Field -->
+				<div class="auth__field">
+					<input
+						type="text"
+						id="username"
+						name="username"
+						placeholder=" "
+						required
+						aria-label="Username" />
+					<label for="username">Enter username</label>
+					<span
+						id="username-icon"
+						class="material-symbols-outlined"
+						aria-hidden="true"
+						data-role="icon"
+						>person</span
+					>
+				</div>
+
+				<!-- Password Field -->
+				<div class="auth__field">
+					<input
+						type="password"
+						id="password"
+						name="password"
+						placeholder=" "
+						required
+						aria-label="Password" />
+					<label for="password">Enter password</label>
+					<span
+						id="password-icon"
+						class="material-symbols-outlined"
+						aria-hidden="true"
+						data-role="icon"
+						>lock</span
+					>
+					<button
+						type="button"
+						class="material-symbols-outlined"
+						aria-label="Toggle password visibility"
+						data-toggle-visibility="false">
+						visibility
+					</button>
+				</div>
+
+				<button id="login-button" class="auth__button" type="submit" disabled>
+					Login
+				</button>
+				<p class="auth__link">
+					Don't have an account yet?
+					<a href="./signup.html" aria-label="Navigate to login page"
+						>Sign up</a
+					>
+				</p>
+			</form>
+		</main>
+		<script src="/script.js" defer></script>
+	</body>
+</html>

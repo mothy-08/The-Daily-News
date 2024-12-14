@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Stay informed with The Daily News: Your source for the latest, most relevant updates delivered daily." />
+		<link rel="stylesheet" href="/styles.css" />
+		<title>The Daily News | Home</title>
+	</head>
+	<body id="home">
+		<header class="home__header">
+			<h1 class="logo" aria-label="The Daily News">
+				<span>The Daily</span> News
+			</h1>
+			<nav aria-label="Primary Navigation">
+				<div class="link-wrapper">
+					<a
+						href="/auth/login.html"
+						class="link"
+						id="login-link"
+						aria-label="Go to Login Page"
+						data-background="false">
+						Login
+					</a>
+					<a
+						href="/auth/signup.html"
+						class="link link--highlight"
+						id="signup-link"
+						aria-label="Sign up for The Daily News"
+						data-background="true">
+						Sign Up
+					</a>
+					<a
+						href="#"
+						class="link"
+						aria-label="Logout"
+						id="logout-link"
+						data-background="true">
+						Logout
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<main class="hero-main">
+			<h2 class="hero-title">
+				<span>Your Daily Dose</span>
+				<br />
+				of News
+			</h2>
+			<p class="hero-subtitle">
+				Stay informed with the <strong>latest, most relevant</strong>
+				<br />
+				news and topics delivered to you daily.
+			</p>
+			<button class="button" aria-label="Explore news articles" role="button">
+				Explore Now
+			</button>
+		</main>
+
+		<div class="bottom-banner" role="note" aria-live="polite">
+			<p>
+				This website is a prototype for UI/UX design. News features and
+				functionalities are currently unavailable.
+			</p>
+		</div>
+		<script src="/script.js"></script>
+	</body>
+</html>
