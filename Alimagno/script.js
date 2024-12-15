@@ -112,14 +112,14 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 
 			if (passwordValue !== storedPassword) {
-				passwordLabel.textContent = "Incorrect Password.";
+				passwordLabel.textContent = "Incorrect password.";
 				passwordLabel.style.color = "red";
 				passwordInput.style.color = "red";
 				passwordInput.style.borderColor = "red";
 				passwordInput.style.outlineColor = "red";
 				passwordIcon.style.color = "red";
 			} else {
-				passwordLabel.textContent = "Correct Password";
+				passwordLabel.textContent = "Correct password.";
 				passwordLabel.style.color = "green";
 				passwordInput.style.color = "green";
 				passwordInput.style.borderColor = "green";

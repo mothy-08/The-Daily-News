@@ -26,7 +26,7 @@
 	--rounded-400: 10px;
 
 	--fs-header: clamp(3rem, 2.1429rem + 4.2857vw, 6rem);
-	--fs-logo: clamp(0.75rem, 0.5357rem + 1.0714vw, 1.5rem);
+	--fs-logo: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
 	--fs-banner: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
 }
 
