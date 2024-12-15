@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	let existingUser = null;
 
 	// Login Page
-	if (window.location.pathname === "/auth/login.html") {
+	if (window.location.pathname === "/Alimagno/auth/login.html") {
 		usernameInput.addEventListener("input", () => {
 			usernameValue = usernameInput.value.trim();
 			existingUser = localStorage.getItem(usernameValue);
@@ -91,11 +91,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			if (!usernameValue || !existingUser) {
 				passwordLabel.textContent = "Enter a valid username first.";
-				passwordLabel.style.color = "initial";
-				passwordInput.style.color = "initial";
-				passwordInput.style.borderColor = "initial";
-				passwordInput.style.outlineColor = "initial";
-				passwordIcon.style.color = "initial";
+				passwordLabel.style.color = "red";
+				passwordInput.style.color = "red";
+				passwordInput.style.borderColor = "red";
+				passwordInput.style.outlineColor = "red";
+				passwordIcon.style.color = "red";
 				return;
 			}
 
@@ -154,26 +154,18 @@ document.addEventListener("DOMContentLoaded", function () {
 			const password = passwordInput.value.trim();
 
 			const userData = localStorage.getItem(username);
-			if (!userData) {
-				alert("User not found! Please sign up first.");
-				return;
-			}
 
 			const { password: storedPassword } = JSON.parse(userData);
-			if (password !== storedPassword) {
-				alert("Incorrect password! Please try again.");
-				return;
-			}
 
 			if (password === storedPassword) {
 				localStorage.setItem("loggedInUser", username); // Store the logged-in user
-				window.location.href = "/index.html";
+				window.location.href = "/Alimagno/index.html";
 			}
 		});
 	}
 
 	// Signup Page
-	if (window.location.pathname === "/auth/signup.html") {
+	if (window.location.pathname === "/Alimagno/auth/signup.html") {
 		usernameInput.addEventListener("input", () => {
 			usernameValue = usernameInput.value.trim();
 			existingUser = localStorage.getItem(usernameValue);
@@ -337,15 +329,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			existingUser = localStorage.getItem(usernameValue);
 
-			if (existingUser) {
-				alert("User already exists! Please login.");
-				return;
-			}
-
 			const userData = { email, password };
 			localStorage.setItem(username, JSON.stringify(userData));
 
-			window.location.href = "/index.html";
+			window.location.href = "/Alimagno/index.html";
 		});
 	}
 
@@ -362,7 +349,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			.addEventListener("click", function () {
 				localStorage.removeItem("loggedInUser"); // Remove the logged-in user from localStorage
 				window.location.reload(); // Reload page to update links
-				window.location.href = "/auth/login.html";
+				window.location.href = "/Alimagno/auth/login.html";
 			});
 	}
 });
