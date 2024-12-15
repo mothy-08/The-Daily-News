@@ -43,9 +43,9 @@
 **Signup Page:**
 ![Signup Page Screenshot](/Alimagno/images/signup.png)
 
-See more
 **Don't miss the other functionalities!**
-[Click here to view the images](images)
+<br/>
+[Click here to view the images](https://github.com/mothy-08/The-Daily-News/tree/main/Alimagno/images)
 
 ## Contributor
 
