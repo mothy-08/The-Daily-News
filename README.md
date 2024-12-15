@@ -1,21 +1,22 @@
-# The Daily News: A Website Prototype showcasing UI/UX Design
+# The Daily News: A Website Prototype
 
-This is a prototype in fulfillment of our final project in Human-Computer interaction.
-It includes basic functionalities for logging in and signing up for an account.
+- **A sleek and modern news website prototype showcasing advanced UI/UX design and interactive features.**
+- **In fulfillment of our final project in Human-Computer Interaction**
 
 ## Features
 
-- Home page with a hero section showcasing the website's purpose.
-- Login and signup functionalities (not fully functional yet).
-- Responsive layout for different screen sizes (not implemented yet).
+- **Straightforward Home Page:** Comprehensible hero section highlighting the website's purpose.
+- **Seamless User Authentication:** Robust login and signup forms with input validation.
+- **Responsive Design:** Optimized for various screen sizes, ensuring a consistent user experience.
+- **Interactive Elements:** Dynamic components for a more engaging user journey.
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript (for basic interactivity)
+- **HTML:** The backbone of the website's structure.
+- **CSS:** Styling and layout.
+- **JavaScript:** Interactive elements and dynamic behavior.
 
-## How To Run
+## How to Run
 
 1. **Install the Live Server Extension:**
    - If you're using Visual Studio Code, install the **Live Server** extension from the Visual Studio Code Marketplace.
@@ -30,3 +31,22 @@ It includes basic functionalities for logging in and signing up for an account.
 
 - Ensure you have a web browser installed on your system.
 - If you encounter any issues, refer to the Live Server extension's documentation for troubleshooting.
+
+## Screenshots
+
+**Home Page:**
+![Home Page Screenshot](/Alimagno/images/hero.png)
+
+**Login Page:**
+![Login Page Screenshot](/Alimagno/images/login.png)
+
+**Signup Page:**
+![Signup Page Screenshot](/Alimagno/images/signup.png)
+
+See more
+**Don't miss the other functionalities!**
+[Click here to view the images](images)
+
+## Contributor
+
+**Alimagno, Timothy Dave C.**
