@@ -23,7 +23,7 @@
 2. **Open `index.html`:**
    - Open the `index.html` file in your code editor.
 3. **Go Live:**
-   - Right-click on the `index.html` file and select "Go Live" to start the live server.
+   - Right-click on the `index.html` file and select "Open with Live Server" to start the live server.
 4. **Access the Website:**
    - Your default web browser will open and display the website.
 
