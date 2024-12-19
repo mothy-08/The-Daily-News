@@ -1,6 +1,7 @@
-# The Daily News: A Website Prototype
+# The Daily News
 
-- **A sleek and modern news website prototype showcasing advanced UI/UX design and interactive features.**
+A sleek and modern news website prototype showcasing advanced UI/UX design and interactive features.
+
 - **In fulfillment of our final project in Human-Computer Interaction**
 
 ## Features
